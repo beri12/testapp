@@ -304,16 +304,7 @@ export default function WhatWeShip() {
       <div ref={componentRef} className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden perspective-[1000px]">
         
         {/* 1. BIG TITLE (Background) */}
-        <div ref={headerRef} className="absolute inset-0 flex flex-col items-center justify-center z-0 pointer-events-none px-4">
-            <div className="space-y-2 text-center">
-                <h2 className="text-5xl md:text-7xl lg:text-[7rem] font-bold text-[#A09B8C] tracking-tighter leading-[0.9]">
-                    What we ship.
-                </h2>
-                <h3 className="text-5xl md:text-7xl lg:text-[7rem] font-bold text-black tracking-tighter leading-[0.9]">
-                    Our ways to move fast
-                </h3>
-            </div>
-        </div>
+      ""
 
         {/* 2. STACKING CARDS CONTAINER */}
         <div ref={sliderRef} className="relative w-full max-w-[1200px] h-[90vh] md:h-[80vh] px-4 md:px-6 z-10 mt-[10vh]">
